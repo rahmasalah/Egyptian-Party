@@ -1,0 +1,152 @@
+:root {
+  scroll-behavior: auto;
+}
+
+#home {
+  background-image: linear-gradient(#00000060 0 100%),
+    url("../excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space.jpg");
+  background-size: 100% 100%;
+  background-position: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#home h1 {
+  font-size: 70px;
+  color: #fff;
+}
+#home h4 {
+  font-size: 25px;
+  color: #fff;
+  font-style: italic;
+}
+
+.nav {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000009d;
+  color: #fff;
+}
+
+#innerSide li {
+  list-style: none;
+  font-size: 32px;
+}
+#innerSide a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#innerSide {
+  height: 100%;
+  display: none;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  padding-left: 10px;
+}
+
+#close {
+  padding-left: 82%;
+  padding-top: 20px;
+}
+
+#innerSide a:hover {
+  color: rgb(158, 99, 146);
+}
+
+#details {
+  margin-top: 200px !important;
+}
+
+#details .singer h3 {
+  background-color: rgb(244, 241, 243);
+  color: #000;
+  padding: 10px;
+  margin: 0;
+}
+
+#details .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#details .singer p {
+  padding: 10px 15px;
+  background-color: #f1ecec55;
+  margin-bottom: 0;
+  display: none;
+}
+
+#duration {
+  background-image: url("../egypt party.jpg");
+  background-position: center center;
+  background-size: 100% 300%;
+  margin-block: 200px;
+}
+#duration .col-md-3 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#contact {
+  margin-top: 200px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: rgb(158, 99, 146);
+  font-size: 22px;
+}
+
+#contact p {
+  font-size: 22px;
+}
+
+#contact p span {
+  color: rgb(158, 99, 146);
+}
+
+#contact a {
+  background-color: rgba(158, 99, 146, 0.722);
+  font-size: 22px;
+  color: #fff;
+  border: none !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(158, 99, 146, 0.192);
+  border-color: rgba(158, 99, 146, 0.722);
+}
+
+.icons i {
+  padding: 10px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.icons {
+  margin: 20px;
+  font-size: 22px;
+  margin-top: 30px;
+  color: gray;
+}
+
+.icons i:hover {
+  background-color: rgba(158, 99, 146, 0.722);
+  border-color: rgba(158, 99, 146, 0.722);
+  color: #fff;
+}
